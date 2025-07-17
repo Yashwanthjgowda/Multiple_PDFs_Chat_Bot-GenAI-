@@ -8,8 +8,7 @@ from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 
-# ✅ Set your Google API Key (directly or from .env)
-GOOGLE_API_KEY = "AIzaSyDYAbLUjCupMqDFJV_FAAnXIdxHyP3zVCY"
+GOOGLE_API_KEY = "GOOGLE_API_KEY"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # ✅ Extract text from uploaded PDFs
